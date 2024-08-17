@@ -116,16 +116,15 @@ span{
 
   .Projects{
     position: absolute;
-    margin-top: 50px;
     background-color: #FEF0DB;
-    width: 550px;
-    margin-left: 150px;
+    width: 520px;
+    margin-right: 500px;
     border-radius: 2px;
     border-left: 2px solid #FDB44D;
   }
 
   .Projects span{
-    margin-right: 200px;
+    margin-right: 410px;
     color: #FDB44D;
     font-size: 17px;
   }
