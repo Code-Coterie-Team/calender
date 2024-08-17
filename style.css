@@ -111,3 +111,21 @@ span{
     color: #FA5A61;
     font-size: 17px;
   }
+
+  /* Projects */
+
+  .Projects{
+    position: absolute;
+    margin-top: 50px;
+    background-color: #FEF0DB;
+    width: 550px;
+    margin-left: 150px;
+    border-radius: 2px;
+    border-left: 2px solid #FDB44D;
+  }
+
+  .Projects span{
+    margin-right: 200px;
+    color: #FDB44D;
+    font-size: 17px;
+  }
