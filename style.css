@@ -39,8 +39,6 @@ span{
     grid-template-columns: repeat(7, minmax(120px, 1fr));
     border-radius: 10px;
     background: #fff;
-    
-    
   }
 
   /* sec Container */
@@ -62,7 +60,6 @@ span{
   }
 
   .Items{
-      border-bottom: 2px solid rgba(166, 168, 179, 0.12);
       border-right: 2px solid rgba(166, 168, 179, 0.12);
       text-align: right;
       padding: 14px 45px;
