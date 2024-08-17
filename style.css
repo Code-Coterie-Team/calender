@@ -35,7 +35,8 @@ span{
     margin: 10px;
     text-align: center;
     display: grid;
-    grid-template-columns: 190px 190px 190px 190px 190px 190px 190px;
+    /* grid-template-columns: 190px 190px 190px 190px 190px 190px 190px; */
+    grid-template-columns: repeat(7, minmax(120px, 1fr));
   }
 
   /* sec Container */
@@ -46,7 +47,11 @@ span{
     margin: 10px;
     text-align: center;
     display: grid;
-    grid-template-columns: 190px 190px 190px 190px 190px 190px 190px;
+    /* grid-template-columns: 190px 190px 190px 190px 190px 190px 190px; */
+    grid-template-columns: repeat(7, minmax(120px, 1fr));
+    grid-template-rows: 50px;
+    grid-auto-rows: 120px;
+    overflow: auto;
   }
 
   .Items{
