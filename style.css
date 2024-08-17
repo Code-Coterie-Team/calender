@@ -47,7 +47,7 @@ span{
   .Container{
     justify-content: space-around;
     padding: 10px;
-    height: 100px;
+    height: 150px;
     margin: 10px;
     text-align: center;
     display: grid;
@@ -64,7 +64,7 @@ span{
   .Items{
       border-right: 1px solid rgba(35, 36, 37, 0.12);
       text-align: right;
-      height: 90px;
+      height: 130px;
       padding: 14px 45px;
       letter-spacing: 1px;
       font-size: 12px;
@@ -82,7 +82,7 @@ span{
     justify-content: space-around;
     padding: 10px;
     margin: 10px;
-    height: 100px;
+    height: 150px;
     text-align: center;
     display: grid;
     /* grid-template-columns: 190px 190px 190px 190px 190px 190px 190px; */
@@ -94,84 +94,20 @@ span{
     border-radius: 10px;
     background: #fff;
   }
-  /* .grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    overflow: hidden;
-    gap: var(--gap);
- }
 
- .grid__item {
-    position: relative;
- }
- .grid {
-    --gap: 2em;
-    --line-offset: calc(var(--gap) / 2);
-    --line-thickness: 2px;
-    --line-color: red;
- }
- .grid__item::before, 
-.grid__item::after {
-   content: '';
-   position: absolute;
-   background-color: var(--line-color);
-   z-index: 1;
-}
-
-.grid__item::after {
-    inline-size: 100vw;
-    block-size: var(--line-thickness);
-    inset-inline-start: 0;
-    inset-block-start: calc(var(--line-offset) * -1);
+  /* Design Sprint */
+  /* #FED6DE */
+  .DesignSprint{
+    position: absolute;
+    margin-top: 50px;
+    background-color: #FED6DE;
+    width: 550px;
+    margin-left: 150px;
+    border-radius: 2px;
+    border-left: 2px solid #FA607E;
   }
-
-  .grid__item::before {
-    inline-size: var(--line-thickness);
-    block-size: 100vh;
-    inset-block-start: 0;
-    inset-inline-start: calc(var(--line-offset) * -1);
+  .DesignSprint span{
+    margin-right: 400px;
+    color: #FA5A61;
+    font-size: 17px;
   }
-
-  .grid {
-  
-
-    --gap: 2rem;
-    --line-offset: calc(var(--gap) / 2);
-    --line-thickness: 2px;
-    --line-color: red;
-    
-   
-     display: grid;
-     grid-template-columns: repeat(3, minmax(0, 1fr));
-     overflow: hidden;
-     gap: var(--gap);
-  }
-  
-
-  .grid__item {
-     position: relative;
-  }
-  
-  
-  .grid__item::before, 
-  .grid__item::after {
-     content: '';
-     position: absolute;
-     background-color: var(--line-color);
-     z-index: 1;
-  }
-  
-  
-  .grid__item::after {
-    inline-size: 100vw;
-    block-size: var(--line-thickness);
-    inset-inline-start: 0;
-    inset-block-start: calc(var(--line-offset) * -1);
-  }
-  
-  
-  .grid__item::before {
-    inline-size: var(--line-thickness);
-    block-size: 100vh;
-    inset-inline-start: calc(var(--line-offset) * -1);
-  } */
