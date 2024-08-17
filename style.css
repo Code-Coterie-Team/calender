@@ -39,6 +39,7 @@ span{
     grid-template-columns: repeat(7, minmax(120px, 1fr));
     border-radius: 10px;
     background: #fff;
+
   }
 
   /* sec Container */
@@ -46,6 +47,7 @@ span{
   .Container{
     justify-content: space-around;
     padding: 10px;
+    height: 100px;
     margin: 10px;
     text-align: center;
     display: grid;
@@ -60,8 +62,9 @@ span{
   }
 
   .Items{
-      border-right: 2px solid rgba(166, 168, 179, 0.12);
+      border-right: 1px solid rgba(35, 36, 37, 0.12);
       text-align: right;
+      height: 90px;
       padding: 14px 45px;
       letter-spacing: 1px;
       font-size: 12px;
@@ -79,6 +82,7 @@ span{
     justify-content: space-around;
     padding: 10px;
     margin: 10px;
+    height: 100px;
     text-align: center;
     display: grid;
     /* grid-template-columns: 190px 190px 190px 190px 190px 190px 190px; */
