@@ -167,17 +167,34 @@ span{
     font-size: 14px;
   }
 
+
+  /* Container4 */
+  .Container4{
+    position: relative;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    height: 150px;
+    text-align: center;
+    display: grid;
+    /* grid-template-columns: 190px 190px 190px 190px 190px 190px 190px; */
+    grid-template-columns: repeat(7, minmax(120px, 1fr));
+    grid-template-rows: 50px;
+    grid-auto-rows: 120px;
+    overflow: auto;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #fff;
+  }
+
   /* box */
 
   .box{
     clip-path: polygon(0 25%, 100% 25%, 100% 75%, 0 75%, 32% 15%, 38% 27%, 0% 75%);
-    width: 170px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 150px;
     height: 120px;
     background-color: #e9ebf0;
     color: black;
-    
+   
   }
   
