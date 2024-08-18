@@ -193,8 +193,30 @@ span{
     clip-path: polygon(0 25%, 100% 25%, 100% 75%, 0 75%, 32% 15%, 38% 27%, 0% 75%);
     width: 150px;
     height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     background-color: #e9ebf0;
     color: black;
-   
   }
   
+  /* Product Checkup 2 */
+
+  .ProductCheckup2{
+    position: absolute;
+    margin-top: 60px;
+    background-color: #E5EEFF;
+    width: 350px;
+    height: 40px;
+    margin-left: 150px;
+    border-radius: 5px;
+    border-left: 2px solid #4786FF;
+  }
+
+  .ProductCheckup2 span{
+    margin-right: 200px;
+    text-align: center;
+    color: #4786FF;
+    font-size: 14px;
+  }
