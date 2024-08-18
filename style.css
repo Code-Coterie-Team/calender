@@ -169,11 +169,12 @@ span{
 
   /* box */
   .box{
-    width: 150px;
+    width: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
+    height: 70px;
     background-color: #d9dbdf;
     color: black;
   }
+  
