@@ -168,13 +168,16 @@ span{
   }
 
   /* box */
+
   .box{
+    clip-path: polygon(0 25%, 100% 25%, 100% 75%, 0 75%, 32% 15%, 38% 27%, 0% 75%);
     width: 170px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 70px;
-    background-color: #d9dbdf;
+    height: 120px;
+    background-color: #e9ebf0;
     color: black;
+    
   }
   
